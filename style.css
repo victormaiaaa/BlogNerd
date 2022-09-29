@@ -1,19 +1,46 @@
 body {
     margin: 0;
 }
-.topo{
+#topo{
     background-color: #492562;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 30px;
+    padding: 0px 60px;
+}
+#menu{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+input {
+    background: #D9D9D9;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    height: 40px;
+    color: #000000;
+    width: 50%;
+    margin-right: 45px;
+}
+input::placeholder{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
 }
 .a-menu{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 22px;
     color: white;
+    text-decoration: none;
+    margin:0px 5px;
+    padding: 10px;
 }
 h1 {
     font-family: 'Poppins';
@@ -21,5 +48,119 @@ h1 {
     font-weight: 700;
     font-size: 41px;
     line-height: 62px;
+    color: white;
+}
+#body {
+    background: #492562;
+    display: flex;
+    justify-content: space-between;
+}
+#a-action{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background: rgba(253, 92, 2, 0.77);
+    border-radius: 10px;
+}
+#meio{
+    background-color: #000000;
+    background-image: url("./img-starwars.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bg-effect{
+    background: rgba(37, 37, 37, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%;
+    height: 100%; */
+    padding: 40px;
+
+}
+#a-meio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #492562;
+    border-radius: 12px;
+    padding: 9px 50px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size:18px;
+    color: white;
+    margin-top: 40px;
+}
+h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    color: #FFFFFF;
+    margin: 0px ;
+}
+#sub-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    margin: 0px;
+    font-size: 29px;
+    color: #FFFFFF;
+}
+#noticias{
+    display: flex;
+
+}
+.notice{
+    width: 33.3%;
+    position: relative;
+}
+.img-notice{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(12,12,12, 0.76);
+    display: flex;
+    flex-direction: column;
+}
+.info-p{
+    padding: 8px;
+}
+
+.info-bottom{
+    bottom: 0;
+}
+.info-top{
+    top: 0;
+}
+.title-notice{
+    font-weight: 500;
+    font-size: 22px;
+}
+.a-notice{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+    width: min-content;
+    align-self: end;
+    padding: 8px;
     color: white;
 }
