@@ -1,0 +1,73 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    background-color: #323232;
+}
+#topo{
+    background-color: #492562;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+#menu{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+input {
+    background: #D9D9D9;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    height: 40px;
+    color: #000000;
+    width: 50%;
+    margin-right: 45px;
+}
+input::placeholder{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+.a-menu{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    margin:0px 5px;
+    padding: 10px;
+}
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 62px;
+    color: white;
+}
+#meio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#principal{
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    padding: 15px;
+}
+h2{
+    color: #323232;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    margin: 0px;
+}
