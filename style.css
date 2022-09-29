@@ -3,12 +3,16 @@ body {
 }
 .topo{
     background-color: #492562;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .a-menu{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 26px;
+    color: white;
 }
 h1 {
     font-family: 'Poppins';
@@ -16,4 +20,5 @@ h1 {
     font-weight: 700;
     font-size: 41px;
     line-height: 62px;
+    color: white;
 }
