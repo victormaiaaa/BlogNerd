@@ -21,8 +21,7 @@ input {
     padding: 5px 10px;
     height: 40px;
     color: #000000;
-    width: 50%;
-    margin-right: 45px;
+    width: 100%;
 }
 input::placeholder{
     font-family: 'Poppins';
@@ -163,4 +162,25 @@ h2{
     align-self: end;
     padding: 8px;
     color: white;
+}
+#search-container{
+    position: relative;
+    margin-right: 45px;
+    width: 50%;
+}
+
+#search-dropdown{
+    position: absolute;
+    padding: 5px;
+    top: 50px; 
+    border-radius:5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 50px 70px -20px rgba(37, 72, 152, 0.15);
+    width: calc(100% - 10px);
+}
+
+#search-dropdown a {
+    text-decoration: none;
+    color: #323232;
+    font-family: 'Poppins';
 }
