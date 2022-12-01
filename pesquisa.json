@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Andor",
+        "path": "./noticiasAndor"
+    },
+    {
+        "title": "The Last Of Us",
+        "path": "./noticiasLastOfUs"
+    },
+    {
+        "title": "The Mandalorian",
+        "path": "./noticiasMandalorian"
+    }
+]
