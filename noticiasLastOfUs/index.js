@@ -3,15 +3,15 @@ const inputSearch = document.querySelector("#input-search");
 const pesquisa = [
   {
     title: "Andor",
-    path: "./noticiasAndor/index.html",
+    path: "../noticiasAndor/index.html",
   },
   {
     title: "The Last Of Us",
-    path: "./noticiasLastOfUs/index.html",
+    path: "../noticiasLastOfUs/index.html",
   },
   {
     title: "The Mandalorian",
-    path: "./noticiasMandalorian/index.html",
+    path: "../noticiasMandalorian/index.html",
   },
 ];
 
